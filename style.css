@@ -20,7 +20,7 @@ div h2, div h3 {
 
 * { 
     font-size: 24px;
-    color: black;
+    /*color: black;*/
 }
 
 /*Comentarios*/
@@ -48,7 +48,72 @@ div h2, div h3 {
 #fondo{
     background-color: rgba(252, 252, 252);
     /*opacity: 0.3;*/
-    height: 200px;
-    background-image: url('https://borealos.com/dynamic/img/borealos-ciberseguridad.png');
-    background-size: cover;
+    height: 400px;
+    background-image: url('https://securekids.es/wp-content/uploads/2015/11/candado-en-la-nube1.jpg');
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    padding: 30px 25px 20px 15px;
+    border: solid 2px black;
+    overflow: scroll;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 3px 5px 5px blue;
+}
+
+a:link{
+    color: darkorange;
+}
+a:visited{
+    color: gray;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: red;
+}
+
+ul{
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+table{
+    width: 100%;
+    /* border: solid; */
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px #eee;
+}
+
+th{
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+
+tr:hover{
+    background-color: #aaa;
+}
+
+#position{
+    position: sticky;
+    left: 20px;
+
 }
