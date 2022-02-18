@@ -1,0 +1,54 @@
+#titulo {
+    color: blue;
+}
+
+p.texto{
+    color: rgb(204, 0, 255);
+}
+
+p.especial{
+    color: rgb(42, 165, 58);
+}
+
+div p {
+    color: darkorange;
+}
+
+div h2, div h3 {
+    color: rgb(235, 105, 18);
+}
+
+* { 
+    font-size: 24px;
+    color: black;
+}
+
+/*Comentarios*/
+
+.color{
+    /* border: 5px black solid;
+    color: rgb(213, 16, 16);
+    
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    */ 
+    
+    border-style:solid;
+    border-color: blue;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+#fondo{
+    background-color: rgba(252, 252, 252);
+    /*opacity: 0.3;*/
+    height: 200px;
+    background-image: url('https://borealos.com/dynamic/img/borealos-ciberseguridad.png');
+    background-size: cover;
+}
